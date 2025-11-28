@@ -4,6 +4,12 @@
 
 TruthLens is a browser extension that combats misinformation by providing instant, AI-powered fact-checking of online claims while storing verified results on the OriginTrail Decentralized Knowledge Graph (DKG).
 
+<img width="320" height="781" alt="Screenshot at Nov 28 20-03-44" src="https://github.com/user-attachments/assets/7d584533-0d97-4081-9335-6b07aab934f3" />
+<img width="1837" height="1238" alt="Screenshot at Nov 29 02-00-55" src="https://github.com/user-attachments/assets/876f0aaf-73d4-4da6-9c8e-313c0ab827a6" />
+<img width="1676" height="1259" alt="Screenshot at Nov 29 02-08-44" src="https://github.com/user-attachments/assets/fa8fbe51-8d82-4fc6-96e1-38e701cc5ce8" />
+
+[Video Demo](https://youtu.be/pbPOmorgYX0)
+
 ## 🌟 Features
 
 - **Instant Fact Checking**: Right-click any text on the web to verify claims instantly
