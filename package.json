@@ -1,0 +1,23 @@
+{
+  "name": "truth-lens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dkg",
+    "truth-lens",
+    "fact-check"
+  ],
+  "author": "Harish Kotra",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dkg.js": "^8.2.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "node-fetch": "^2.7.0"
+  }
+}

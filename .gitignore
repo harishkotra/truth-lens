@@ -1,0 +1,29 @@
+# Environment variables (contains secrets!)
+.env
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Package lock (optional - remove this line if you want to commit it)
+# package-lock.json
+
+DEMO_CHEATSHEET.md
+DEMO_SCRIPT.md
+QUICK_START.md
+HACKATHON_SUBMISSION.md
+.claude/
+package-lock.json

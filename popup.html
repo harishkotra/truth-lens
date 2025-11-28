@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      width: 320px;
+      padding: 15px;
+      font-family: 'Inter', sans-serif;
+      background-color: #f9fafb;
+    }
+
+    h1 {
+      font-size: 18px;
+      color: #111827;
+      margin: 0 0 15px 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .status {
+      font-size: 12px;
+      color: #6b7280;
+      margin-bottom: 15px;
+      padding: 8px;
+      background: #e5e7eb;
+      border-radius: 6px;
+    }
+
+    .status.connected {
+      background: #d1fae5;
+      color: #065f46;
+    }
+
+    .status.mock {
+      background: #fef3c7;
+      color: #92400e;
+    }
+
+    button {
+      width: 100%;
+      padding: 8px 16px;
+      background-color: #4f46e5;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+
+    button:hover {
+      background-color: #4338ca;
+    }
+
+    button.secondary {
+      background-color: #e5e7eb;
+      color: #374151;
+    }
+
+    button.secondary:hover {
+      background-color: #d1d5db;
+    }
+
+    #settings-panel {
+      display: none;
+      margin-top: 15px;
+      border-top: 1px solid #e5e7eb;
+      padding-top: 15px;
+    }
+
+    label {
+      display: block;
+      font-size: 12px;
+      color: #374151;
+      margin-bottom: 4px;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 6px;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+
+    .checkbox-group {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+
+    input[type="checkbox"] {
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>TruthLens</h1>
+  <div id="connection-status" class="status">Initializing...</div>
+
+  <button id="settings-btn" class="secondary">Settings</button>
+
+  <div id="settings-panel">
+    <label for="agent-url">DKG Agent API URL</label>
+    <input type="text" id="agent-url"
+      placeholder="https://0xfa1fc68813d687215be75fba4fffb60f184590bc.gaia.domains/v1/chat/completions">
+
+    <div class="checkbox-group">
+      <input type="checkbox" id="use-mock">
+      <label for="use-mock">Use Mock Mode (Demo)</label>
+    </div>
+
+    <button id="save-btn">Save Settings</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+
+</html>
